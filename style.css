@@ -1,0 +1,44 @@
+header {
+  display: flex;
+
+  font-family: monospace;
+  font-size: larger;
+  align-content: center;
+  font-weight: bolder;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0%;
+  position: fixed;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+  font-size: 0.7em;
+  font-weight: bold;
+  align-content: center;
+  justify-content: space-around;
+  margin-inline-start: 120px;
+  margin-block-start: 33px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.feature {
+  height: 100vh;
+  background-image: url("space\ 1.jpeg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  align-items: last center;
+  justify-content: space-evenly;
+  display: flex;
+}
